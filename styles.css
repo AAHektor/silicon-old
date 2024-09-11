@@ -164,6 +164,99 @@ header .container {
     padding-bottom: 1rem;
 }
 
+/* Main starts here */
+
+.main-container {
+    width: 100%;
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-text-container-margins {
+    margin-bottom: 4rem;
+}
+
+
+.main-text-container {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 3rem;
+
+    &.main-text-container h2 {
+        font-size: 34.1px;
+    }
+
+    &.main-text-container p {
+        color: #585C7B;
+        font-size: 18px;
+    }
+}
+.h2-text-container {
+    margin: auto;
+    margin-bottom: 3rem;
+    width: 21rem;
+}
+
+.button-container {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.button-margins {
+    margin-bottom: 1rem;
+}
+
+.button-app {
+    background-color: #131022;
+    width: 21rem;
+    height: 3.5rem;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    
+
+    &.button-app p {
+        color: white;
+    }
+    &.button-app h3 {
+        color: white;
+        font-size: 1.4rem;
+    }
+    &.button-app i {
+        font-size: 2rem;
+        margin-right: .5rem;
+    }
+}
+
+.fa-apple {
+    color: white;
+}
+
+.discover-more-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3.5rem;
+    cursor: pointer;
+    
+    &.discover-more-container button {
+        border: none;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        background-color: '';
+    }
+}
+
+
 @media (min-width: 768px) {
     .container {
         max-width: 720px;
